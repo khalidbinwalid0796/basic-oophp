@@ -11,7 +11,7 @@
 /***
 *
     The __callStatic() method is very similar to the __call() method; the only exception is that it’s called when you’re trying to invoke inaccessible methods in a static context. So if you’re trying to access any static method which is not defined, the __callStatic() function will be called.
-*
+*   1ta class ar object create kore oi class 1at method call kora holo, but oi method ta oi class a nai, __callStatic() use korle method na thakle o oi method ar nam return kore
 *
 ***/
 
